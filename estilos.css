@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fondo1{
+    background-color: pink;
+}
+.fondo2{
+    background-color: #333;
+}
+.header{
+    background-color: #333;
+}
+.barra ul li a{
+    color:white;
+    font-size: 20px;
+}
+.barra ul li a:hover{
+    color:fuchsia;
+}
+.titulo1{
+    color: fuchsia;
+    font-family: sans-serif;
+}
+.titulo2{
+    background-color: #333;
+    text-align: center;
+    color: fuchsia;
+}
+.imagen1{
+    padding:0;
+}
+.Carrou{
+    margin: 20px;
+    padding: 20px;
+}
+.formulario{
+    background-color:fuchsia;
+    padding:30px;
+    margin:50px;
+}
+.formulario:hover{
+    transform:scale(1.05);
+    transition: all 0.08s;
+    box-shadow: 2px 2px 5px white;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color:#333;
+    color: fuchsia;
+    padding: 10px;
+    font-size: 30px;
+}
+.nosotros{
+    width: 100%;
+    min-height:450px;
+    background-color: pink;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.nright{
+    width:100%;
+    min-height: 450px;
+    padding: 20px;
+    /*font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
+    font-family: 'Oswald', sans-serif;
+    text-align:justify;
+}
+.nright h3{
+    text-align: center;
+    text-shadow: 2px 2px 3px fuchsia;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
